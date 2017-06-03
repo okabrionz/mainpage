@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Oka bRionZ';
-  desc = 'Jasa Pembuatan Situs Bootstrap 3 dan 4 untuk Company Profile atau Landing Page.'
+  desc = 'Web Developer, Graphic Artisan, Code Creator'
 }
