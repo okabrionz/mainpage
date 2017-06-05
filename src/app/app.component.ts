@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Oka bRionZ';
-  desc = 'Web Developer, Graphic Artisan, Code Creator'
+  desc = 'Web Developer, Graphic Artisan, & Code Creator'
 }
