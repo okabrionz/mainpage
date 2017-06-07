@@ -1,1 +1,173 @@
 /* You can add global styles to this file, and also import other style files */
+.cssload-container{
+	display: block;
+	margin:294px auto;
+	width:588px;
+}
+
+.cssload-container *, .cssload-container *:before, .cssload-container *:after {
+	box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+}
+
+.cssload-circle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border-radius: 50%;
+	z-index: 1;
+	transform: translate(-50%, -50%);
+		-o-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+	transition: all 230ms ease;
+		-o-transition: all 230ms ease;
+		-ms-transition: all 230ms ease;
+		-webkit-transition: all 230ms ease;
+		-moz-transition: all 230ms ease;
+}
+.cssload-circle:nth-child(1) {
+	z-index: 2;
+	background: rgb(255,0,0);
+	animation-name: cssload-explode;
+		-o-animation-name: cssload-explode;
+		-ms-animation-name: cssload-explode;
+		-webkit-animation-name: cssload-explode;
+		-moz-animation-name: cssload-explode;
+	animation-duration: 1.15s;
+		-o-animation-duration: 1.15s;
+		-ms-animation-duration: 1.15s;
+		-webkit-animation-duration: 1.15s;
+		-moz-animation-duration: 1.15s;
+	animation-timing-function: ease;
+		-o-animation-timing-function: ease;
+		-ms-animation-timing-function: ease;
+		-webkit-animation-timing-function: ease;
+		-moz-animation-timing-function: ease;
+	animation-delay: 0;
+		-o-animation-delay: 0;
+		-ms-animation-delay: 0;
+		-webkit-animation-delay: 0;
+		-moz-animation-delay: 0;
+	animation-iteration-count: infinite;
+		-o-animation-iteration-count: infinite;
+		-ms-animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
+		-moz-animation-iteration-count: infinite;
+}
+.cssload-circle:nth-child(2) {
+	background: rgb(23,23,23);
+	animation-name: cssload-explode;
+		-o-animation-name: cssload-explode;
+		-ms-animation-name: cssload-explode;
+		-webkit-animation-name: cssload-explode;
+		-moz-animation-name: cssload-explode;
+	animation-duration: 1.15s;
+		-o-animation-duration: 1.15s;
+		-ms-animation-duration: 1.15s;
+		-webkit-animation-duration: 1.15s;
+		-moz-animation-duration: 1.15s;
+	animation-timing-function: ease;
+		-o-animation-timing-function: ease;
+		-ms-animation-timing-function: ease;
+		-webkit-animation-timing-function: ease;
+		-moz-animation-timing-function: ease;
+	animation-delay: 0.58s;
+		-o-animation-delay: 0.58s;
+		-ms-animation-delay: 0.58s;
+		-webkit-animation-delay: 0.58s;
+		-moz-animation-delay: 0.58s;
+	animation-iteration-count: infinite;
+		-o-animation-iteration-count: infinite;
+		-ms-animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
+		-moz-animation-iteration-count: infinite;
+}
+
+
+
+@keyframes cssload-explode {
+	0% {
+		width: 0;
+		height: 0;
+		z-index: 1;
+	}
+	50% {
+		width: 59em;
+		height: 59em;
+		z-index: 1;
+	}
+	100% {
+		display: none;
+	}
+}
+
+@-o-keyframes cssload-explode {
+	0% {
+		width: 0;
+		height: 0;
+		z-index: 1;
+	}
+	50% {
+		width: 59em;
+		height: 59em;
+		z-index: 1;
+	}
+	100% {
+		display: none;
+	}
+}
+
+@-ms-keyframes cssload-explode {
+	0% {
+		width: 0;
+		height: 0;
+		z-index: 1;
+	}
+	50% {
+		width: 59em;
+		height: 59em;
+		z-index: 1;
+	}
+	100% {
+		display: none;
+	}
+}
+
+@-webkit-keyframes cssload-explode {
+	0% {
+		width: 0;
+		height: 0;
+		z-index: 1;
+	}
+	50% {
+		width: 59em;
+		height: 59em;
+		z-index: 1;
+	}
+	100% {
+		display: none;
+	}
+}
+
+@-moz-keyframes cssload-explode {
+	0% {
+		width: 0;
+		height: 0;
+		z-index: 1;
+	}
+	50% {
+		width: 59em;
+		height: 59em;
+		z-index: 1;
+	}
+	100% {
+		display: none;
+	}
+}
