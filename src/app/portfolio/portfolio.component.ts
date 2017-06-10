@@ -13,6 +13,13 @@ export class PortfolioComponent implements OnInit {
   ptitle5 = 'STID Sirnarasa';
   ptitle6 = 'Pasantren Sirnarasa';
 
+  pdesc1 = 'Pemilik Roti Rachmat ingin menambah omzet dan ingin mengembangkan bisnisnya dengan mempromosikannya ke seluruh Indonesia menggunakan situs resmi rachmat.co.id.';
+  pdesc2 = 'Jasa Manage Virtual Machine';
+  pdesc3 = 'Blog tentang Android dan Teknologi terbaru.';
+  pdesc4 = 'Layanan Web Hosting Indonesia';
+  pdesc5 = 'Sekolah Tinggi Ilmu Dakwah Sirnarasa.';
+  pdesc6 = 'Pesantren Peradaban Dunia Sirnarasa.'
+
   constructor() { }
 
   ngOnInit() {
