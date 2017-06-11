@@ -20,7 +20,7 @@ export class PortfolioComponent implements OnInit {
   pdesc5 = 'Sekolah Tinggi Ilmu Dakwah Sirnarasa.';
   pdesc6 = 'Pesantren Peradaban Dunia Sirnarasa.';
 
-  psicon1 = 'assets/img/portfolio/rachmat-s.jpg';
+  psicon1 = 'assets/img/portfolio/rachmat-icon.jpg';
   psicon2 = 'assets/img/portfolio/managedvm-s.jpg';
   psicon3 = 'assets/img/portfolio/androholic-s.png';
   psicon4 = 'assets/img/portfolio/okabrionz-s.png';
