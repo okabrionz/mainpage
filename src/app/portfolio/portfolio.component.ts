@@ -27,7 +27,7 @@ export class PortfolioComponent implements OnInit {
   psicon5 = 'assets/img/portfolio/okabrionz-s.png';
   psicon6 = 'assets/img/portfolio/okabrionz-s.png';
 
-  pimg1 = 'assets/img/portfolio/rachmat.png';
+  pimg1 = 'assets/img/portfolio/rachmat.jpg';
   pimg2 = 'assets/img/portfolio/managedvm-og.jpg';
   pimg3 = 'assets/img/portfolio/androholic.jpg';
   pimg4 = 'assets/img/portfolio/okabrionz.jpg';
