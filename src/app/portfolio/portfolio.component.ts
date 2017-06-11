@@ -11,7 +11,7 @@ export class PortfolioComponent implements OnInit {
   ptitle3 = 'Androholic';
   ptitle4 = 'Web Host Indonesia';
   ptitle5 = 'STID Sirnarasa';
-  ptitle6 = 'Pasantren Sirnarasa';
+  ptitle6 = 'Sirnarasa';
 
   pdesc1 = 'Pemilik Roti Rachmat ingin menambah omzet dan ingin mengembangkan bisnisnya dengan mempromosikannya ke seluruh Indonesia menggunakan situs resmi rachmat.co.id.';
   pdesc2 = 'Jasa Manage Virtual Machine';
