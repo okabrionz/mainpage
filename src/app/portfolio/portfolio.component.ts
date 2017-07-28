@@ -6,33 +6,26 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./portfolio.component.css']
 })
 export class PortfolioComponent implements OnInit {
-  ptitle1 = 'Roti Rachmat';
-  ptitle2 = 'Managed Virtual Machine';
-  ptitle3 = 'Androholic';
-  ptitle4 = 'Web Host Indonesia';
-  ptitle5 = 'STID Sirnarasa';
-  ptitle6 = 'Sirnarasa';
+  ptitle1 = 'Rachmat.co.id';
+  ptitle2 = 'ManagedVM.com';
+  ptitle3 = 'Androholic.com';
+  ptitle4 = 'WebHost.co.id';
+  ptitle5 = 'JasaTulis.com';
+  ptitle6 = 'Jeghi.com';
 
   pdesc1 = 'Pemilik Roti Rachmat ingin menambah omzet dan ingin mengembangkan bisnisnya dengan mempromosikannya ke seluruh Indonesia menggunakan situs resmi rachmat.co.id.';
-  pdesc2 = 'Jasa Manage Virtual Machine';
-  pdesc3 = 'Blog tentang Android dan Teknologi terbaru.';
+  pdesc2 = 'Landing Page Domain Managed Virtual Machine';
+  pdesc3 = 'Komunitas, Spesifikasi, Solusi, Tips & Tricks Android Indonesia.';
   pdesc4 = 'Layanan Web Hosting Indonesia';
-  pdesc5 = 'Sekolah Tinggi Ilmu Dakwah Sirnarasa.';
-  pdesc6 = 'Pesantren Peradaban Dunia Sirnarasa.';
-
-  psicon1 = 'assets/img/portfolio/rachmat-s.png';
-  psicon2 = 'assets/img/portfolio/managedvm-s.jpg';
-  psicon3 = 'assets/img/portfolio/androholic-s.png';
-  psicon4 = 'assets/img/portfolio/webhost-s.png';
-  psicon5 = 'assets/img/portfolio/jasatulis-s.png';
-  psicon6 = 'assets/img/portfolio/jeghi-s.png';
+  pdesc5 = 'Jasa Penulis Artikel profesional bahasa Indonesia dan Inggris.';
+  pdesc6 = 'Solusi Konstruksi Baja Indonesia.';
 
   pimg1 = 'assets/img/portfolio/rachmat.jpg';
   pimg2 = 'assets/img/portfolio/managedvm-og.jpg';
   pimg3 = 'assets/img/portfolio/androholic.jpg';
-  pimg4 = 'assets/img/portfolio/okabrionz.jpg';
-  pimg5 = 'assets/img/portfolio/okabrionz.jpg';
-  pimg6 = 'assets/img/portfolio/okabrionz.jpg';
+  pimg4 = 'assets/img/portfolio/webhost.jpg';
+  pimg5 = 'assets/img/portfolio/jasatulis.jpg';
+  pimg6 = 'assets/img/portfolio/jeghi.jpg';
 
 
   constructor() { }
