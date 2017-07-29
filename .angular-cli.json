@@ -10,7 +10,8 @@
       "assets": [
         "assets",
         "favicon.ico",
-        "og-image.jpg"
+        "og-image.jpg",
+        "404.html"
       ],
       "index": "index.html",
       "main": "main.ts",
