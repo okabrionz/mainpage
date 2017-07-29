@@ -1,160 +1,114 @@
-
-
-    <!-- Navigation -->
-    <nav class="navbar fixed-top navbar-toggleable-md navbar-light" id="mainNav">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#bRionZNav" aria-controls="bRionZNav" aria-expanded="false" aria-label="Toggle navigation">
+<!-- Navigation -->
+<nav class="navbar fixed-top navbar-toggleable-md navbar-light" id="mainNav">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#bRionZNav" aria-controls="bRionZNav"
+    aria-expanded="false" aria-label="Toggle navigation">
             Menu <i class="fa fa-bars"></i>
         </button>
-        <div class="container">
-            <a class="navbar-brand" href="/">{{title}}</a>
-            <div class="collapse navbar-collapse" id="bRionZNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/blog">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+  <div class="container">
+    <a class="navbar-brand" href="/">{{title}}</a>
+    <div class="collapse navbar-collapse" id="bRionZNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/blog">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tentang">Tentang</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#rates">Biaya</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-    <!-- Header -->
-    <header class="masthead">
-        <div class="container">
-            <img class="img-fluid" height="200px" width="200px" src="assets/img/bRionZ.svg" alt="jasa pembuatan website">
-            <div class="intro-text">
-                <span class="name">{{title}}</span>
-                <hr class="star-light">
-                <span class="skills">{{desc}}</span>
-            </div>
-        </div>
-    </header>
+<!-- Header -->
+<header class="masthead">
+  <div class="container">
+    <img class="img-fluid" height="200px" width="200px" src="assets/img/bRionZ.svg" alt="jasa pembuatan website">
+    <div class="intro-text">
+      <span class="name">{{title}}</span>
+      <hr class="star-light">
+      <span class="skills">{{desc}}</span>
+    </div>
+  </div>
+</header>
 
 <app-portfolio></app-portfolio>
 
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <h2 class="text-center">About</h2>
-            <hr class="star-light">
-            <div class="row">
-                <div class="col-lg-4 offset-lg-2">
-                    <p>Dengan semakin banyaknya kebutuhan situs di Indonesia maka okabrionz.com ingin membantu para start-up untuk memulai bisnis Anda di dunia maya.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Apapun jenis bisnis yang Anda miliki, Saya akan menyajikannya secara visual untuk dapat menjadi bahan promosi bisnis Anda sebagai aset untuk masa depan.</p>
-                </div>
-                <div class="col-lg-8 offset-lg-2 text-center">
-                    <a href="#contact" class="btn btn-lg btn-outline">
+<!-- About Section -->
+<section class="success" id="tentang">
+  <div class="container">
+    <h2 class="text-center">About</h2>
+    <hr class="star-light">
+    <div class="row">
+      <div class="col-lg-4 offset-lg-2">
+        <p>Dengan semakin banyaknya kebutuhan situs di Indonesia maka okabrionz.com ingin membantu para start-up untuk memulai
+          bisnis Anda di dunia maya.</p>
+      </div>
+      <div class="col-lg-4">
+        <p>Apapun jenis bisnis yang Anda miliki, Saya akan menyajikannya secara visual untuk dapat menjadi bahan promosi bisnis
+          Anda sebagai aset untuk masa depan.</p>
+      </div>
+      <div class="col-lg-8 offset-lg-2 text-center">
+        <a href="#contact" class="btn btn-lg btn-outline">
                         Hubungi</a>
-                </div>
-            </div>
-        </div>
-    </section>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container text-center">
-            <h2>Kontak</h2>
-            <hr class="star-primary">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <form name="OkabRionZCom" netlify>
-                        <div class="control-group">
-                            <div class="form-group floating-label-form-group controls">
-                                <label>Nama</label>
-                                <input class="form-control" id="name" type="text" placeholder="Nama" required data-validation-required-message="Please enter your name.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="form-group floating-label-form-group controls">
-                                <label>Alamat Email</label>
-                                <input class="form-control" id="email" type="email" placeholder="Alamat Email" required data-validation-required-message="Silahakan masukan alamat email Anda.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="form-group floating-label-form-group controls">
-                                <label>Nomor Telpon</label>
-                                <input class="form-control" id="phone" type="tel" placeholder="Nomor Telpon" required data-validation-required-message="Silakan masukan nomor telpon/HP Anda.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="form-group floating-label-form-group controls">
-                                <label>Pesan</label>
-                                <textarea class="form-control" id="message" rows="5" placeholder="Pesan" required data-validation-required-message="Silahkan tulis pesan Anda."></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <br>
-                        <div id="success"></div>
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-success btn-lg">Kirim</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+<app-rates></app-rates>
 
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Lokasi</h3>
-                        <p>Komp. Sirnarasa No.19 RT 10/05
-                            <br> Cisirri, Panjalu
-                            <br>Ciamis - Jawa Barat, ID</p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Tetap terhubung</h3>
-                        <ul class="list-inline">
-                            <li class="list-inline-item">
-                                <a class="btn-social btn-outline" href="https://fb.com/AntiHacx"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="btn-social btn-outline" href="https://plus.google.com/u/0/106825481970291568150"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="btn-social btn-outline" href="https://twitter.com/okabrionz"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Tentang OKA BRIONZ</h3>
-                        <p>Oka bRionZ adalah Web Developer profesional yang mengedepankan kecepatan dalam setiap pembuatan website.</p>
-                    </div>
-                </div>
-            </div>
+<!-- Footer -->
+<footer class="text-center">
+  <div class="footer-above">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col col-md-4">
+          <h3>Lokasi</h3>
+          <p>Komp. Sirnarasa No.19 RT 10/05
+            <br> Cisirri, Panjalu
+            <br>Ciamis - Jawa Barat, ID</p>
         </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        &copy; <a href="https://www.okabrionz.com">Oka bRionZ</a> 2017
-                    </div>
-                </div>
-            </div>
+        <div class="footer-col col-md-4">
+          <h3>Tetap terhubung</h3>
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <a class="btn-social btn-outline" href="https://fb.com/AntiHacx"><i class="fa fa-fw fa-facebook"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-social btn-outline" href="https://plus.google.com/u/0/106825481970291568150"><i class="fa fa-fw fa-google-plus"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-social btn-outline" href="https://twitter.com/okabrionz"><i class="fa fa-fw fa-twitter"></i></a>
+            </li>
+          </ul>
         </div>
-    </footer>
+        <div class="footer-col col-md-4 text-left">
+          <h3>Tentang OKA BRIONZ</h3>
+          <p>Oka bRionZ adalah Web Developer profesional yang mengedepankan kecepatan dalam setiap pembuatan website.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-below">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          &copy; <a href="https://www.okabrionz.com">Oka bRionZ</a> 2017
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top hidden-lg-up">
-        <a class="btn btn-primary page-scroll" href="#top">
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+<div class="scroll-top hidden-lg-up">
+  <a class="btn btn-primary page-scroll" href="#top">
             <i class="fa fa-chevron-up"></i>
         </a>
-    </div>
-
-
+</div>
