@@ -1,0 +1,26 @@
+<svg width="1366" height="768" viewBox="0 0 1366 768" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>bgblog</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(637 371)" figma:type="canvas">
+<g id="bgblog" figma:type="frame">
+<g id="Rectangle" figma:type="rounded-rectangle">
+<use xlink:href="#path0_fill" transform="translate(-637 -371)" fill="url(#paint0_linear)"/>
+</g>
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path1_stroke" transform="translate(-548 -312)" fill="url(#paint1_radial)"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1366 768 -1366 2429.63 683 -1214.82)">
+<stop offset="0" stop-color="#9B51E0"/>
+<stop offset="1" stop-color="#F2C94C"/>
+</linearGradient>
+<radialGradient id="paint1_radial" cx="0.5" cy="0.5" r="0.5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.27746e-14 649 -1188.5 3.97398e-14 1188.5 -3.97398e-14)">
+<stop offset="0" stop-color="#2F80ED"/>
+<stop offset="1" stop-color="#219653"/>
+</radialGradient>
+<path id="path0_fill" d="M 0 0L 1366 0L 1366 768L 0 768L 0 0Z"/>
+<path id="path1_stroke" d="M 44.5 259L 32.7525 261.449L 36.0713 277.371L 50.3058 269.502L 44.5 259ZM 513 0L 524.634 2.93994L 531.415 -23.8917L 507.194 -10.502L 513 0ZM 349 649L 337.366 646.06L 357.832 657.123L 349 649ZM 664 306.5L 676 306.5L 676 275.726L 655.168 298.377L 664 306.5ZM 664 444L 652 444L 652 478.607L 673.424 451.429L 664 444ZM 1014 0L 1026 0L 1026 -34.6068L 1004.58 -7.42885L 1014 0ZM 1014 291.5L 1002 291.5L 1002 304.688L 1015.13 303.447L 1014 291.5ZM -11.7475 47.9485L 32.7525 261.449L 56.2475 256.551L 11.7475 43.0515L -11.7475 47.9485ZM 50.3058 269.502L 518.806 10.502L 507.194 -10.502L 38.6942 248.498L 50.3058 269.502ZM 501.366 -2.93994L 337.366 646.06L 360.634 651.94L 524.634 2.93994L 501.366 -2.93994ZM 357.832 657.123L 672.832 314.623L 655.168 298.377L 340.168 640.877L 357.832 657.123ZM 652 306.5L 652 444L 676 444L 676 306.5L 652 306.5ZM 673.424 451.429L 1023.42 7.42885L 1004.58 -7.42885L 654.576 436.571L 673.424 451.429ZM 1002 0L 1002 291.5L 1026 291.5L 1026 0L 1002 0ZM 1015.13 303.447L 1189.63 286.947L 1187.37 263.053L 1012.87 279.553L 1015.13 303.447Z"/>
+</defs>
+</svg>

@@ -27,6 +27,20 @@ export class PortfolioComponent implements OnInit {
   pimg5 = 'https://cdn.okabrionz.com/assets/img/portfolio/jasatulis.jpg';
   pimg6 = 'https://cdn.okabrionz.com/assets/img/portfolio/jeghi.jpg';
 
+  pmdate1 = '';
+  pmdate2 = '';
+  pmdate3 = '';
+  pmdate4 = '';
+  pmdate5 = '';
+  pmdate6 = '';
+
+  pmservice1 = '';
+  pmservice2 = '';
+  pmservice3 = '';
+  pmservice4 = '';
+  pmservice5 = '';
+  pmservice6 = '';
+
 
   constructor() { }
 
