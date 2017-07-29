@@ -20,12 +20,12 @@ export class PortfolioComponent implements OnInit {
   pdesc5 = 'Jasa Penulis Artikel profesional bahasa Indonesia dan Inggris.';
   pdesc6 = 'Solusi Konstruksi Baja Indonesia.';
 
-  pimg1 = 'assets/img/portfolio/rachmat.jpg';
-  pimg2 = 'assets/img/portfolio/managedvm-og.jpg';
-  pimg3 = 'assets/img/portfolio/androholic.jpg';
-  pimg4 = 'assets/img/portfolio/webhost.jpg';
-  pimg5 = 'assets/img/portfolio/jasatulis.jpg';
-  pimg6 = 'assets/img/portfolio/jeghi.jpg';
+  pimg1 = 'https://cdn.okabrionz.com/assets/img/portfolio/rachmat.jpg';
+  pimg2 = 'https://cdn.okabrionz.com/assets/img/portfolio/managedvm-og.jpg';
+  pimg3 = 'https://cdn.okabrionz.com/assets/img/portfolio/androholic.jpg';
+  pimg4 = 'https://cdn.okabrionz.com/assets/img/portfolio/webhost.jpg';
+  pimg5 = 'https://cdn.okabrionz.com/assets/img/portfolio/jasatulis.jpg';
+  pimg6 = 'https://cdn.okabrionz.com/assets/img/portfolio/jeghi.jpg';
 
 
   constructor() { }
