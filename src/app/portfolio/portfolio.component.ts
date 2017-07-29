@@ -21,7 +21,7 @@ export class PortfolioComponent implements OnInit {
   pdesc6 = 'Solusi Konstruksi Baja Indonesia.';
 
   pimg1 = 'https://cdn.okabrionz.com/assets/img/portfolio/rachmat.jpg';
-  pimg2 = 'https://cdn.okabrionz.com/assets/img/portfolio/managedvm-og.jpg';
+  pimg2 = 'https://cdn.okabrionz.com/assets/img/portfolio/managedvm.jpg';
   pimg3 = 'https://cdn.okabrionz.com/assets/img/portfolio/androholic.jpg';
   pimg4 = 'https://cdn.okabrionz.com/assets/img/portfolio/webhost.jpg';
   pimg5 = 'https://cdn.okabrionz.com/assets/img/portfolio/jasatulis.jpg';
