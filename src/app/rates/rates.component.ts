@@ -7,23 +7,23 @@ import { $ } from "protractor/built";
   styleUrls: ['./rates.component.css']
 })
 export class RatesComponent implements OnInit {
-  layanan1 = "Pembuatan Company Profile";
-  biaya1 = "$500-$3000"
+  layanan1 = "Profil Perusahaan";
+  biaya1 = "$500 - $3000"
 
-  layanan2 = "Pembuatan Landing Page";
-  biaya2 = "$350-$1200"
+  layanan2 = "Toko Online";
+  biaya2 = "$350 - $1200"
 
-  layanan3 = "Desain Logo";
-  biaya3 = "$50-$250"
+  layanan3 = "Landing Page";
+  biaya3 = "$150 - $350"
 
-  layanan4 = "Jasa SEO (/per Kata Kunci)";
+  layanan4 = "Jasa SEO";
   biaya4 = "Hubungi kami"
 
-  layanan5 = "Optimasi Performa Situs";
-  biaya5 = "$50-$250"
+  layanan5 = "Blog";
+  biaya5 = "$100 - $2500"
 
-  layanan6 = "";
-  biaya6 = ""
+  layanan6 = "Optimasi Kecepatan Website";
+  biaya6 = "$200 - $5000"
 
   layanan7 = "";
   biaya7 = ""

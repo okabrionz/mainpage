@@ -13,12 +13,12 @@ export class PortfolioComponent implements OnInit {
   ptitle5 = 'JasaTulis.com';
   ptitle6 = 'Jeghi.com';
 
-  pdesc1 = 'Pemilik Roti Rachmat ingin menambah omzet dan ingin mengembangkan bisnisnya dengan mempromosikannya ke seluruh Indonesia menggunakan situs resmi rachmat.co.id.';
+  pdesc1 = 'Pemilik Roti Rachmat ingin menambah omzet dan ingin mengembangkan bisnisnya dengan berpromosi menggunakan situs resmi rachmat.co.id.';
   pdesc2 = 'Landing Page Domain Managed Virtual Machine';
-  pdesc3 = 'Komunitas, Spesifikasi, Solusi, Tips & Tricks Android Indonesia.';
+  pdesc3 = 'Komunitas, Spesifikasi, Solusi, Tips & Tricks Android.';
   pdesc4 = 'Layanan Web Hosting Indonesia';
-  pdesc5 = 'Jasa Penulis Artikel profesional bahasa Indonesia dan Inggris.';
-  pdesc6 = 'Solusi Konstruksi Baja Indonesia.';
+  pdesc5 = 'Penulis Artikel profesional bahasa Indonesia dan Inggris.';
+  pdesc6 = 'Solusi Konstruksi Baja.';
 
   pimg1 = 'https://cdn.okabrionz.com/assets/img/portfolio/rachmat.jpg';
   pimg2 = 'https://cdn.okabrionz.com/assets/img/portfolio/managedvm.jpg';

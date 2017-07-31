@@ -1,113 +1,12 @@
-<!-- Navigation -->
-<nav class="navbar fixed-top navbar-toggleable-md navbar-light" id="mainNav">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#bRionZNav" aria-controls="bRionZNav"
-    aria-expanded="false" aria-label="Toggle navigation">
-            Menu <i class="fa fa-bars"></i>
-        </button>
-  <div class="container">
-    <a class="navbar-brand" href="/">{{title}}</a>
-    <div class="collapse navbar-collapse" id="bRionZNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/blog">Blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#portfolio">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#tentang">Tentang</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#rates">Biaya</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<app-navbar></app-navbar>
 
-<!-- Header -->
-<header class="masthead">
-  <div class="container">
-    <img class="img-fluid" height="200px" width="200px" src="assets/img/bRionZ.svg" alt="jasa pembuatan website">
-    <div class="intro-text">
-      <span class="name">{{title}}</span>
-      <hr class="star-light">
-      <span class="skills">{{desc}}</span>
-    </div>
-  </div>
-</header>
+<app-header></app-header>
 
-<app-portfolio></app-portfolio>
+<app-portfolio id="klien"></app-portfolio>
 
-<!-- About Section -->
-<section class="success" id="tentang">
-  <div class="container">
-    <h2 class="text-center">Tentang</h2>
-    <hr class="star-light">
-    <div class="row">
-      <div class="col-lg-8 offset-lg-2 text-left">
-        <p>Dengan semakin banyaknya kebutuhan jasa pembuatan website di Indonesia, saya ingin membantu untuk mengembangkan bisnis di dunia maya lebih maju ke tahap selanjutnya.</p>
-        <p>Apapun jenis bisnis yang Anda miliki, saya bersedia membuatkan profil suatu nama menjadi sebuah bentuk visual yang disajikan dengan profesional.</p>
-        <p>Kecepatan performa sebuah situs menjadi sangat penting ketika dituntut menjadi keharusan oleh mesin pencari. Dan hebatnya lagi, Anda sedang berada di tempat yang benar.</p>
-      
-        <div class="text-center">
-          <a href="/kontak" class="btn btn-lg btn-outline">Hubungi</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+<app-tentang id="tentang"></app-tentang>
 
-<app-rates></app-rates>
+<app-rates id="rates"></app-rates>
 
-<!-- Footer -->
-<footer class="text-center">
-  <div class="footer-above">
-    <div class="container">
-      <div class="row">
-        <div class="footer-col col-md-4">
-          <h3>Lokasi</h3>
-          <p>Komp. Sirnarasa No.19 RT 10/05
-            <br> Cisirri, Panjalu
-            <br>Ciamis - Jawa Barat, ID
-          </p>
-        </div>
-        <div class="footer-col col-md-4">
-          <h3>Tetap terhubung</h3>
-          <ul class="list-inline">
-            <li class="list-inline-item">
-              <a class="btn-social btn-outline" href="https://fb.com/AntiHacx"><i class="fa fa-fw fa-facebook"></i></a>
-            </li>
-            <li class="list-inline-item">
-              <a class="btn-social btn-outline" href="https://plus.google.com/u/0/106825481970291568150"><i class="fa fa-fw fa-google-plus"></i></a>
-            </li>
-            <li class="list-inline-item">
-              <a class="btn-social btn-outline" href="https://twitter.com/okabrionz"><i class="fa fa-fw fa-twitter"></i></a>
-            </li>
-          </ul>
-          <br><p><i class="fa fa-whatsapp text-success" aria-hidden="true"></i> 082319228666</p>
-        </div>
-        <div class="footer-col col-md-4 text-left">
-          <h3>Tentang OKA BRIONZ</h3>
-          <p>Oka bRionZ adalah Web Developer profesional yang mengedepankan kecepatan dalam setiap pembuatan website.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="footer-below">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          &copy; <a href="https://www.okabrionz.com">Oka bRionZ</a> 2017
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
+<app-footer></app-footer>
 
-<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-<div class="scroll-top hidden-lg-up">
-  <a class="btn btn-primary page-scroll" href="#top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-</div>
