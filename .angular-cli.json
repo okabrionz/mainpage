@@ -12,7 +12,8 @@
         "favicon.ico",
         "og-image.jpg",
         "404.html",
-        "_redirects"
+        "_redirects",
+        "order.html"
       ],
       "index": "index.html",
       "main": "main.ts",

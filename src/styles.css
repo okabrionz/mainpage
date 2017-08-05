@@ -20,7 +20,7 @@
 		-ms-perspective: 475px;
 		-webkit-perspective: 475px;
 		-moz-perspective: 475px;
-	transform-type: preserve-3d;
+	transform-style: preserve-3d;
 		-o-transform-type: preserve-3d;
 		-ms-transform-type: preserve-3d;
 		-webkit-transform-type: preserve-3d;
@@ -38,7 +38,7 @@
 	border-radius: 238px;
 	border: 95px outset rgb(245,0,0);
 	background-color: transparent;
-	transform-type: preserve-3d;
+	transform-style: preserve-3d;
 		-o-transform-type: preserve-3d;
 		-ms-transform-type: preserve-3d;
 		-webkit-transform-type: preserve-3d;
