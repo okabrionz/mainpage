@@ -70,7 +70,7 @@
 							</span>
                           <div class="form-group label-floating">
                             <label class="control-label">Nama Anda</label>
-                            <input name="Name" type="name" class="form-control">
+                            <input name="Nama" type="name" class="form-control" required>
                           </div>
                         </div>
 
@@ -80,7 +80,7 @@
 							</span>
                           <div class="form-group label-floating">
                             <label class="control-label">Email</label>
-                            <input name="name" type="text" class="form-control">
+                            <input name="Email" type="text" class="form-control" required>
                           </div>
                         </div>
 
@@ -90,8 +90,8 @@
                       <div class="col-sm-6">
                         <div class="form-group label-floating">
                           <label class="control-label">Pilih Layanan</label>
-                          <select class="form-control">
-														<option disabled="true" selected=""></option>
+                          <select class="form-control" required>
+														<option disabled="" selected=""></option>
 	                                                	<option value="Landing Page"> Landing Page </option>
 	                                                	<option value="Toko Online"> Toko Online </option>
 	                                                	<option value="Profil Perusahaan"> Profil Perusahaan </option>
@@ -104,7 +104,7 @@
                         <div class="form-group label-floating">
 							
                           <label class="control-label">Nomor HP</label>
-                          <input name="name" type="text" class="form-control">
+                          <input name="Nomor Telpon" type="tel" class="form-control" required>
                         </div>
                       </div>
                     </div>
@@ -115,7 +115,7 @@
                       <div class="col-sm-10 col-sm-offset-1">
                         <div class="col-sm-4">
                           <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="Awali pengembangan bisnis Anda dengan satu gerakan pembukti.">
-                            <input type="radio" name="job" value="Design">
+                            <input type="radio" name="Dibawah $300" value="Design">
                             <div class="icon">
                               <i class="material-icons text-warning">keyboard_arrow_down</i>
                             </div>
@@ -124,7 +124,7 @@
                         </div>
                         <div class="col-sm-4">
                           <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="Pengembangan situs dengan biaya yang standard yang profesional.">
-                            <input type="radio" name="job" value="Code">
+                            <input type="radio" name="$500 - $900" value="Code">
                             <div class="icon">
                               <i class="material-icons text-success">keyboard_arrow_right</i>
                             </div>
@@ -133,7 +133,7 @@
                         </div>
                         <div class="col-sm-4">
                           <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="Investasi penuh untuk lebih meningkatkan kinerja bisnis Anda.">
-                            <input type="radio" name="job" value="Code">
+                            <input type="radio" name="Diatas $1000" value="Code">
                             <div class="icon">
                               <i class="material-icons text-primary">business</i>
                             </div>
@@ -149,7 +149,7 @@
                       <div class="col-sm-6 col-sm-offset-1">
                         <div class="form-group">
                           <label>Silahkan menulis details tambahan disini</label>
-                          <textarea class="form-control" placeholder="" rows="6"></textarea>
+                          <textarea name="Pesan" class="form-control" placeholder="" rows="6"></textarea>
                         </div>
                       </div>
                       <div class="col-sm-4">
@@ -169,15 +169,7 @@
                   <div class="pull-left">
                     <input type='button' class='btn btn-previous btn-fill btn-default btn-wd' name='previous' value='Previous' />
 
-                    <div class="footer-checkbox">
-                      <div class="col-sm-12">
-                        <div class="checkbox">
-                          <label>
-													  <input type="checkbox" name="optionsCheckboxes">
-												  </label> Langganan berita terbaru dari OKABRIONZ.COM
-                        </div>
-                      </div>
-                    </div>
+                    
                   </div>
                   <div class="clearfix"></div>
                 </div>
